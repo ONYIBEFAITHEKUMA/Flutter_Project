@@ -3,13 +3,15 @@ import 'main_page.dart';
 import 'try.dart';
 import 'practice.dart';
 import 'container.dart';
+import 'full_screen_container.dart';
 // import 'main_page.dart';
 
 void main() {
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
     // home: BottomNavBar(),
-    home: ContainerWidget(),
+    // home: ContainerWidget(),
+    home: FullScreenContainer(),
   ));
 }
 
