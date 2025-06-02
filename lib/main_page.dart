@@ -9,25 +9,26 @@ class MainPage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text('This is the Main Page'),
-            ElevatedButton(
-              onPressed: () {
-                Navigator.pushNamed(context, '/page1');
-              },
-              child: Text('Go to Page 1'),
-            ),
-            ElevatedButton(
-              onPressed: () {
-                Navigator.pushNamed(context, '/page2');
-              },
-              child: Text('Go to Page 2'),
-            ),
-            ElevatedButton(
-              onPressed: () {
-                Navigator.pushNamed(context, '/page3');
-              },
-              child: Text('Go to Page 3'),
-            ),
+            // Text('This is the Main Page'),
+            // ElevatedButton(
+            //   onPressed: () {
+            //     Navigator.pushNamed(context, '/page1');
+            //   },
+            //   child: Text('Go to Page 1'),
+            // ),
+            // ElevatedButton(
+            //   onPressed: () {
+            //     Navigator.pushNamed(context, '/page2');
+            //   },
+            //   child: Text('Go to Page 2'),
+            // ),
+            // ElevatedButton(
+            //   onPressed: () {
+            //     Navigator.pushNamed(context, '/page3');
+            //   },
+            //   child: Text('Go to Page 3'),
+            // ),
+            
           ],
         ),
       ),

@@ -13,6 +13,11 @@ class Page3 extends StatelessWidget {
             ElevatedButton(
               onPressed: () {
                 Navigator.pushReplacementNamed(context, '/main');
+
+                Image.asset(
+                  'image/computer.jpeg',
+                );
+                // print('button pressed!' );
               },
               child: Text('Back to Main Page'),
             ),
